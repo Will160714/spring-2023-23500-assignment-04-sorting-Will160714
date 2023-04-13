@@ -39,4 +39,17 @@ can create a new Makefile or copy and modify one you've used in the past.
 
 
 * Write your comments here:   
-   
+   Quick Sort:
+   When the vector size was relatively small and as I increased max value, both functions ran instanteously.
+   However, it seems that increasing the max value for larger size did not increase runtime.
+   In general, as vector size increased, the qsort2 ran faster by a large margin.
+
+   Merge Sort:
+   When the vector size was small and the max value was only 10 times the size, the merge sort already runs slower by 1 second.
+   However, it seems that increasing the max value for larger size did not increase runtime.
+   In the long term, the qsort2 ran faster than merge sort regardless of size or max value.
+
+   Built In Sort:
+   Both functions ran instanteously when size was small and max value did not play a role in runtime.
+   Similar to the other sorts, max value did not play a role in runtime for both functions.
+   As the vector size increased, qsort2 ran approximately twice as fast as the default sort.
